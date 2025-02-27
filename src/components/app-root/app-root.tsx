@@ -1,11 +1,9 @@
 import { Component, h } from '@stencil/core';
 
-import 'stencil-quill'
-
 @Component({
   tag: 'app-root',
   styleUrl: 'app-root.css',
-  shadow: true,
+  shadow: false,
 })
 export class AppRoot {
   render() {

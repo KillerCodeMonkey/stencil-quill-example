@@ -8,6 +8,8 @@
   Any global CSS variables should also be applied here.
 */
 
+@import '~quill/dist/quill.snow.css';
+
 body {
   margin: 0px;
   padding: 0px;
