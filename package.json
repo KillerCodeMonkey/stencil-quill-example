@@ -7,7 +7,7 @@
     "build": "stencil build",
     "start": "stencil build --dev --watch --serve",
     "generate": "stencil generate",
-    "build:deploy": "npm run build && gh-pages -d ."
+    "build:deploy": "npm run build && gh-pages -d ./www"
   },
   "devDependencies": {
     "@stencil/core": "^4.0.0",
