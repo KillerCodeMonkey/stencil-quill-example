@@ -1,0 +1,21 @@
+{
+  "name": "stencil-quill-stencil",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Example repo for stencil-quill",
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "generate": "stencil generate",
+    "build:deploy": "npm run build && gh-pages -d ."
+  },
+  "devDependencies": {
+    "@stencil/core": "^4.0.0",
+    "gh-pages": "^6.3.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "quill": "^2.0.3",
+    "stencil-quill": "^11.0.0"
+  }
+}

@@ -1,0 +1,6 @@
+@import '~quill/dist/quill.snow.css';
+
+main {
+  max-width: 850px;
+  margin: 16px;
+}
