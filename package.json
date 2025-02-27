@@ -16,6 +16,6 @@
   "license": "MIT",
   "dependencies": {
     "quill": "^2.0.3",
-    "stencil-quill": "^11.0.0"
+    "stencil-quill": "^11.0.1"
   }
 }
